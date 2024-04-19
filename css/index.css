@@ -79,9 +79,8 @@ body{
   margin-bottom: 15px;
 }
 
-.page .content .prp-time ul li span{
-  font-weight: bold;
-  margin-left: 10px;
+.page .content .prp-time ul li{
+  padding-inline-start: 15px;
 }
 
 .page .content .prp-time ul li::marker{
@@ -94,8 +93,8 @@ body{
   border-bottom: #d2d0d0 solid 1px;
 }
 
-.page .content .ingradiant li span{
-  margin-left: 10px;
+.page .content .ingradiant li{
+  padding-inline-start: 15px;
 }
 
 .page .content .instruction{
@@ -104,9 +103,12 @@ body{
   border-bottom: #d2d0d0 solid 1px;
 }
 
+.page .content .instruction ol li{
+  padding-inline-start: 15px;
+}
+
 .page .content .instruction ol li span{
   font-weight: bold;
-  margin-left: 10px;
 }
 
 .page .content .nuturation{
